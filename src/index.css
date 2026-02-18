@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: 'GarciaMarquez';
+  src: url('/src/assets/fonts/GarciaMarquez.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #F5F6F1 !important;
+}
+
+
+:root {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rs-picker-input-group {
+  border: 1px solid #D4C7BE !important;
+  border-radius: 20px !important;
+  margin-top: 20px;
+  padding: 8px;
+  cursor: pointer !important;
+}
+
+.rs-picker-input-group:hover {
+  border: 1px solid #986C63 !important;
+}
+
+.rs-picker-input-group input::placeholder {
+  color: #986C63 !important; /* Replace with your desired color, e.g., #000000 or red */
+}
+
+.rs-picker-input-group:focus-within {
+  outline: none !important;
+
+  border: 1px solid #986C63 !important;
+  box-shadow: none !important;
+}
